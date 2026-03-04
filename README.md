@@ -1,4 +1,5 @@
 Welcome to your new dbt project!
+... I am learning
 
 ### Using the starter project
 
