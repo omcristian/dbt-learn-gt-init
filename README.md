@@ -1,5 +1,5 @@
 Welcome to your new dbt project!
-... I am learning
+... I am learning dbt
 
 ### Using the starter project
 
