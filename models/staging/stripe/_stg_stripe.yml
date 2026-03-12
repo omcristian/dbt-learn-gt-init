@@ -1,0 +1,15 @@
+models:
+  - name: stg_stripe__payments
+    description: Payment source
+    columns:
+      - name: payment_id
+        description: The primary key for payment
+        data_tests:
+          - unique
+          - not_null
+      - name: status
+        description: "{{ doc('payment_status') }}"
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['success', 'fail']
